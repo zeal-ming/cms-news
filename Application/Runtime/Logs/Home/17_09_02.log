@@ -1,0 +1,649 @@
+[ 2017-09-02T20:41:58+08:00 ] 127.0.0.1 /index.php?c=detail&id=23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000292s ]
+SQL: SHOW COLUMNS FROM `cms_news_content` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cms_news_content` WHERE ( news_id=23 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+NOTIC: [8] Undefined variable: config /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 5 行.
+NOTIC: [8] Undefined variable: config /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 6 行.
+NOTIC: [8] Undefined variable: config /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 7 行.
+NOTIC: [8] Undefined variable: result /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 21 行.
+NOTIC: [8] Undefined variable: navs /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 22 行.
+NOTIC: [8] Undefined index: title /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 33 行.
+NOTIC: [8] Undefined variable: news /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 48 行.
+NOTIC: [8] Undefined variable: advNews /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 57 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007732s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007761s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000275s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000300s ]
+
+[ 2017-09-02T20:42:01+08:00 ] 127.0.0.1 /index.php?c=detail&id=23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000268s ]
+SQL: SHOW COLUMNS FROM `cms_news_content` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cms_news_content` WHERE ( news_id=23 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+NOTIC: [8] Undefined variable: config /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 5 行.
+NOTIC: [8] Undefined variable: config /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 6 行.
+NOTIC: [8] Undefined variable: config /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 7 行.
+NOTIC: [8] Undefined variable: result /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 21 行.
+NOTIC: [8] Undefined variable: navs /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 22 行.
+NOTIC: [8] Undefined index: title /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 33 行.
+NOTIC: [8] Undefined variable: news /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 48 行.
+NOTIC: [8] Undefined variable: advNews /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 57 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005339s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005373s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000264s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000287s ]
+
+[ 2017-09-02T20:42:16+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000282s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0008s ]
+SQL: SELECT * FROM cms_position_content p left join cms_news as n on p.news_id = n.news_id  WHERE p.status <> -1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: title /Library/WebServer/News/Application/Common/Model/contentModel.class.php 第 31 行.
+NOTIC: [8] Undefined index: catid /Library/WebServer/News/Application/Common/Model/contentModel.class.php 第 39 行.
+SQL: SELECT * FROM `cms_news` ORDER BY listorder desc, news_id desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+NOTIC: [8] Undefined index: name /Library/WebServer/News/Application/Runtime/Cache/Home/76c9f62bd3cfdcbee153fe5746e8b52e.php 第 19 行.
+NOTIC: [8] Undefined index: name /Library/WebServer/News/Application/Runtime/Cache/Home/76c9f62bd3cfdcbee153fe5746e8b52e.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004733s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004764s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000251s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.006569s ]
+NOTIC: [8] Undefined variable: config /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 5 行.
+NOTIC: [8] Undefined variable: config /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 6 行.
+NOTIC: [8] Undefined variable: config /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8] Undefined variable: result /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 21 行.
+NOTIC: [8] Undefined variable: result /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined variable: result /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined variable: result /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: name /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 83 行.
+NOTIC: [8] Undefined index: name /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 83 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009256s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000320s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000008s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.009364s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000347s ]
+
+[ 2017-09-02T20:42:19+08:00 ] 127.0.0.1 /index.php?c=cat&id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000278s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cms_news` WHERE ( catid=3 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Undefined variable: config /Library/WebServer/News/Application/Runtime/Cache/Home/14fcc139096cfd1d2075eb8db7e60b1e.php 第 5 行.
+NOTIC: [8] Undefined variable: config /Library/WebServer/News/Application/Runtime/Cache/Home/14fcc139096cfd1d2075eb8db7e60b1e.php 第 6 行.
+NOTIC: [8] Undefined variable: config /Library/WebServer/News/Application/Runtime/Cache/Home/14fcc139096cfd1d2075eb8db7e60b1e.php 第 7 行.
+NOTIC: [8] Undefined variable: result /Library/WebServer/News/Application/Runtime/Cache/Home/14fcc139096cfd1d2075eb8db7e60b1e.php 第 21 行.
+NOTIC: [8] Undefined variable: navs /Library/WebServer/News/Application/Runtime/Cache/Home/14fcc139096cfd1d2075eb8db7e60b1e.php 第 22 行.
+NOTIC: [8] Undefined variable: result /Library/WebServer/News/Application/Runtime/Cache/Home/14fcc139096cfd1d2075eb8db7e60b1e.php 第 45 行.
+NOTIC: [8] Undefined variable: news /Library/WebServer/News/Application/Runtime/Cache/Home/14fcc139096cfd1d2075eb8db7e60b1e.php 第 61 行.
+NOTIC: [8] Undefined variable: advNews /Library/WebServer/News/Application/Runtime/Cache/Home/14fcc139096cfd1d2075eb8db7e60b1e.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007943s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007971s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000271s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000295s ]
+
+[ 2017-09-02T20:42:20+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000270s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0005s ]
+SQL: SELECT * FROM cms_position_content p left join cms_news as n on p.news_id = n.news_id  WHERE p.status <> -1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: title /Library/WebServer/News/Application/Common/Model/contentModel.class.php 第 31 行.
+NOTIC: [8] Undefined index: catid /Library/WebServer/News/Application/Common/Model/contentModel.class.php 第 39 行.
+SQL: SELECT * FROM `cms_news` ORDER BY listorder desc, news_id desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+NOTIC: [8] Undefined index: name /Library/WebServer/News/Application/Runtime/Cache/Home/76c9f62bd3cfdcbee153fe5746e8b52e.php 第 19 行.
+NOTIC: [8] Undefined index: name /Library/WebServer/News/Application/Runtime/Cache/Home/76c9f62bd3cfdcbee153fe5746e8b52e.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005563s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005605s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000172s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000211s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007316s ]
+NOTIC: [8] Undefined variable: config /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 5 行.
+NOTIC: [8] Undefined variable: config /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 6 行.
+NOTIC: [8] Undefined variable: config /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8] Undefined variable: result /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 21 行.
+NOTIC: [8] Undefined variable: result /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined variable: result /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined variable: result /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: name /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 83 行.
+NOTIC: [8] Undefined index: name /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 83 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007251s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000292s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000009s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007362s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000405s ]
+
+[ 2017-09-02T20:42:22+08:00 ] 127.0.0.1 /index.php?c=detail&id=23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000360s ]
+SQL: SHOW COLUMNS FROM `cms_news_content` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cms_news_content` WHERE ( news_id=23 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+NOTIC: [8] Undefined variable: config /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 5 行.
+NOTIC: [8] Undefined variable: config /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 6 行.
+NOTIC: [8] Undefined variable: config /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 7 行.
+NOTIC: [8] Undefined variable: result /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 21 行.
+NOTIC: [8] Undefined variable: navs /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 22 行.
+NOTIC: [8] Undefined index: title /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 33 行.
+NOTIC: [8] Undefined variable: news /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 48 行.
+NOTIC: [8] Undefined variable: advNews /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 57 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007279s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007321s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000273s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000296s ]
+
+[ 2017-09-02T20:44:02+08:00 ] 127.0.0.1 /index.php?c=detail&id=24
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+SQL: SHOW COLUMNS FROM `cms_news_content` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cms_news_content` WHERE ( news_id=24 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+NOTIC: [8] Undefined variable: config /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 5 行.
+NOTIC: [8] Undefined variable: config /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 6 行.
+NOTIC: [8] Undefined variable: config /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 7 行.
+NOTIC: [8] Undefined variable: result /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 21 行.
+NOTIC: [8] Undefined variable: navs /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 22 行.
+NOTIC: [8] Undefined index: title /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 33 行.
+NOTIC: [8] Undefined variable: news /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 48 行.
+NOTIC: [8] Undefined variable: advNews /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 57 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007955s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008042s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000134s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Library/WebServer/News/ThinkPHP/Common/functions.php:850) /Library/WebServer/News/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Library/WebServer/News/ThinkPHP/Common/functions.php:850) /Library/WebServer/News/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Library/WebServer/News/ThinkPHP/Common/functions.php:850) /Library/WebServer/News/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000674s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000710s ]
+
+[ 2017-09-02T20:49:50+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0007s ]
+SQL: SELECT * FROM cms_position_content p left join cms_news as n on p.news_id = n.news_id  WHERE p.status <> -1  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: title /Library/WebServer/News/Application/Common/Model/contentModel.class.php 第 31 行.
+NOTIC: [8] Undefined index: catid /Library/WebServer/News/Application/Common/Model/contentModel.class.php 第 39 行.
+SQL: SELECT * FROM `cms_news` ORDER BY listorder desc, news_id desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+NOTIC: [8] Undefined index: name /Library/WebServer/News/Application/Runtime/Cache/Home/76c9f62bd3cfdcbee153fe5746e8b52e.php 第 19 行.
+NOTIC: [8] Undefined index: name /Library/WebServer/News/Application/Runtime/Cache/Home/76c9f62bd3cfdcbee153fe5746e8b52e.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004678s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004706s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000122s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.004996s ]
+NOTIC: [8] Undefined variable: config /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 5 行.
+NOTIC: [8] Undefined variable: config /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 6 行.
+NOTIC: [8] Undefined variable: config /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8] Undefined variable: result /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 21 行.
+NOTIC: [8] Undefined variable: result /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined variable: result /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined variable: result /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: name /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 83 行.
+NOTIC: [8] Undefined index: name /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 83 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005755s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000172s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000007s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005828s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000291s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000316s ]
+
+[ 2017-09-02T20:49:52+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000281s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0005s ]
+SQL: SELECT * FROM cms_position_content p left join cms_news as n on p.news_id = n.news_id  WHERE p.status <> -1  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: title /Library/WebServer/News/Application/Common/Model/contentModel.class.php 第 31 行.
+NOTIC: [8] Undefined index: catid /Library/WebServer/News/Application/Common/Model/contentModel.class.php 第 39 行.
+SQL: SELECT * FROM `cms_news` ORDER BY listorder desc, news_id desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+NOTIC: [8] Undefined index: name /Library/WebServer/News/Application/Runtime/Cache/Home/76c9f62bd3cfdcbee153fe5746e8b52e.php 第 19 行.
+NOTIC: [8] Undefined index: name /Library/WebServer/News/Application/Runtime/Cache/Home/76c9f62bd3cfdcbee153fe5746e8b52e.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004661s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004693s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000171s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005957s ]
+NOTIC: [8] Undefined variable: config /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 5 行.
+NOTIC: [8] Undefined variable: config /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 6 行.
+NOTIC: [8] Undefined variable: config /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8] Undefined variable: result /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 21 行.
+NOTIC: [8] Undefined variable: result /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined variable: result /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined variable: result /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: name /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 83 行.
+NOTIC: [8] Undefined index: name /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 83 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006110s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000225s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000007s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.006184s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000289s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000313s ]
+
+[ 2017-09-02T20:49:53+08:00 ] 127.0.0.1 /index.php?c=detail&id=24
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+SQL: SHOW COLUMNS FROM `cms_news_content` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_news_content` WHERE ( news_id=24 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+NOTIC: [8] Undefined variable: config /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 5 行.
+NOTIC: [8] Undefined variable: config /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 6 行.
+NOTIC: [8] Undefined variable: config /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 7 行.
+NOTIC: [8] Undefined variable: result /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 21 行.
+NOTIC: [8] Undefined variable: navs /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 22 行.
+NOTIC: [8] Undefined index: title /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 33 行.
+NOTIC: [8] Undefined variable: news /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 48 行.
+NOTIC: [8] Undefined variable: advNews /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 57 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007124s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007155s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000122s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Library/WebServer/News/ThinkPHP/Common/functions.php:850) /Library/WebServer/News/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Library/WebServer/News/ThinkPHP/Common/functions.php:850) /Library/WebServer/News/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Library/WebServer/News/ThinkPHP/Common/functions.php:850) /Library/WebServer/News/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000593s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000689s ]
+
+[ 2017-09-02T20:49:58+08:00 ] 127.0.0.1 /index.php?c=detail&id=23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+SQL: SHOW COLUMNS FROM `cms_news_content` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cms_news_content` WHERE ( news_id=23 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+NOTIC: [8] Undefined variable: config /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 5 行.
+NOTIC: [8] Undefined variable: config /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 6 行.
+NOTIC: [8] Undefined variable: config /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 7 行.
+NOTIC: [8] Undefined variable: result /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 21 行.
+NOTIC: [8] Undefined variable: navs /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 22 行.
+NOTIC: [8] Undefined index: title /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 33 行.
+NOTIC: [8] Undefined variable: news /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 48 行.
+NOTIC: [8] Undefined variable: advNews /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 57 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007494s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007526s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000278s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000303s ]
+
+[ 2017-09-02T20:50:13+08:00 ] 127.0.0.1 /index.php?c=detail&id=21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+SQL: SHOW COLUMNS FROM `cms_news_content` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cms_news_content` WHERE ( news_id=21 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+NOTIC: [8] Undefined variable: config /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 5 行.
+NOTIC: [8] Undefined variable: config /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 6 行.
+NOTIC: [8] Undefined variable: config /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 7 行.
+NOTIC: [8] Undefined variable: result /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 21 行.
+NOTIC: [8] Undefined variable: navs /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 22 行.
+NOTIC: [8] Undefined index: title /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 33 行.
+NOTIC: [8] Undefined variable: news /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 48 行.
+NOTIC: [8] Undefined variable: advNews /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 57 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007290s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007324s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000273s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000298s ]
+
+[ 2017-09-02T20:50:41+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000617s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0004s ]
+SQL: SELECT * FROM cms_position_content p left join cms_news as n on p.news_id = n.news_id  WHERE p.status <> -1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: title /Library/WebServer/News/Application/Common/Model/contentModel.class.php 第 31 行.
+NOTIC: [8] Undefined index: catid /Library/WebServer/News/Application/Common/Model/contentModel.class.php 第 39 行.
+SQL: SELECT * FROM `cms_news` ORDER BY listorder desc, news_id desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+NOTIC: [8] Undefined index: name /Library/WebServer/News/Application/Runtime/Cache/Home/76c9f62bd3cfdcbee153fe5746e8b52e.php 第 19 行.
+NOTIC: [8] Undefined index: name /Library/WebServer/News/Application/Runtime/Cache/Home/76c9f62bd3cfdcbee153fe5746e8b52e.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005849s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005877s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000132s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.004975s ]
+NOTIC: [8] Undefined variable: config /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 5 行.
+NOTIC: [8] Undefined variable: config /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 6 行.
+NOTIC: [8] Undefined variable: config /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8] Undefined variable: result /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 21 行.
+NOTIC: [8] Undefined variable: result /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined variable: result /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined variable: result /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: name /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 83 行.
+NOTIC: [8] Undefined index: name /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 83 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005534s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000184s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000008s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005612s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000337s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000365s ]
+
+[ 2017-09-02T20:50:44+08:00 ] 127.0.0.1 /index.php?c=detail&id=21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000357s ]
+SQL: SHOW COLUMNS FROM `cms_news_content` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cms_news_content` WHERE ( news_id=21 ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+NOTIC: [8] Undefined variable: config /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 5 行.
+NOTIC: [8] Undefined variable: config /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 6 行.
+NOTIC: [8] Undefined variable: config /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 7 行.
+NOTIC: [8] Undefined variable: result /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 21 行.
+NOTIC: [8] Undefined variable: navs /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 22 行.
+NOTIC: [8] Undefined index: title /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 33 行.
+NOTIC: [8] Undefined variable: news /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 48 行.
+NOTIC: [8] Undefined variable: advNews /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 57 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007643s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007705s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000351s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000383s ]
+
+[ 2017-09-02T20:51:27+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001054s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0006s ]
+SQL: SELECT * FROM cms_position_content p left join cms_news as n on p.news_id = n.news_id  WHERE p.status <> -1  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: title /Library/WebServer/News/Application/Common/Model/contentModel.class.php 第 31 行.
+NOTIC: [8] Undefined index: catid /Library/WebServer/News/Application/Common/Model/contentModel.class.php 第 39 行.
+SQL: SELECT * FROM `cms_news` ORDER BY listorder desc, news_id desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+NOTIC: [8] Undefined index: name /Library/WebServer/News/Application/Runtime/Cache/Home/76c9f62bd3cfdcbee153fe5746e8b52e.php 第 19 行.
+NOTIC: [8] Undefined index: name /Library/WebServer/News/Application/Runtime/Cache/Home/76c9f62bd3cfdcbee153fe5746e8b52e.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004693s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004737s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000167s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000204s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.006458s ]
+NOTIC: [8] Undefined variable: config /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 5 行.
+NOTIC: [8] Undefined variable: config /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 6 行.
+NOTIC: [8] Undefined variable: config /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8] Undefined variable: result /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 21 行.
+NOTIC: [8] Undefined variable: result /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined variable: result /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined variable: result /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: name /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 83 行.
+NOTIC: [8] Undefined index: name /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 83 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006770s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000280s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000009s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.006875s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000396s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000424s ]
+
+[ 2017-09-02T20:51:32+08:00 ] 127.0.0.1 /index.php?c=detail&id=23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000271s ]
+SQL: SHOW COLUMNS FROM `cms_news_content` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_news_content` WHERE ( news_id=23 ) LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+NOTIC: [8] Undefined variable: config /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 5 行.
+NOTIC: [8] Undefined variable: config /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 6 行.
+NOTIC: [8] Undefined variable: config /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 7 行.
+NOTIC: [8] Undefined variable: result /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 21 行.
+NOTIC: [8] Undefined variable: navs /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 22 行.
+NOTIC: [8] Undefined index: title /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 33 行.
+NOTIC: [8] Undefined variable: news /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 48 行.
+NOTIC: [8] Undefined variable: advNews /Library/WebServer/News/Application/Runtime/Cache/Home/0d75cb75cd30b13fdd4834afd69acb19.php 第 57 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010961s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011042s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000133s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000344s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000378s ]
+
+[ 2017-09-02T20:58:15+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0006s ]
+SQL: SELECT * FROM cms_position_content p left join cms_news as n on p.news_id = n.news_id  WHERE p.status <> -1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: title /Library/WebServer/News/Application/Common/Model/contentModel.class.php 第 31 行.
+NOTIC: [8] Undefined index: catid /Library/WebServer/News/Application/Common/Model/contentModel.class.php 第 39 行.
+SQL: SELECT * FROM `cms_news` ORDER BY listorder desc, news_id desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+NOTIC: [8] Undefined index: name /Library/WebServer/News/Application/Runtime/Cache/Home/76c9f62bd3cfdcbee153fe5746e8b52e.php 第 19 行.
+NOTIC: [8] Undefined index: name /Library/WebServer/News/Application/Runtime/Cache/Home/76c9f62bd3cfdcbee153fe5746e8b52e.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004252s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004282s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000253s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.004936s ]
+NOTIC: [8] Undefined variable: config /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 5 行.
+NOTIC: [8] Undefined variable: config /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 6 行.
+NOTIC: [8] Undefined variable: config /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8] Undefined variable: result /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 21 行.
+NOTIC: [8] Undefined variable: result /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined variable: result /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined variable: result /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: name /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 83 行.
+NOTIC: [8] Undefined index: name /Library/WebServer/News/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 83 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006058s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000339s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000009s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.006178s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000637s ]
+
